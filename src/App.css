@@ -473,3 +473,27 @@ flex-direction: column;
 gap: 10px;
 }
 }
+
+.data-table {
+width: 100%;
+border-collapse: collapse;
+background: white;
+margin-top: 25px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, .06);
+}
+
+.data-table th {
+background: #39a900;
+color: white;
+padding: 14px;
+text-align: left;
+}
+
+.data-table td {
+padding: 13px;
+border-bottom: 1px solid #e1e6e3;
+}
+
+.data-table tr:hover {
+background: #edf8e8;
+}
